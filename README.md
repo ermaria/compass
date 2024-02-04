@@ -1,25 +1,24 @@
-# Fall 2023 - Spring 2024: A Notion-UI website to speed up data lookup for Compass Center
+# 🧭 Fall 2023 - Spring 2024: A Notion-UI Website for Compass Center Data Lookup
 
-## Technologies
-Next.js, TailwindCSS, Typescript, PostgreSQL
+## 🛠 Technologies
+- Next.js
+- TailwindCSS
+- TypeScript
+- PostgreSQL
 
-## File setup
+## 📁 File Setup
 ```
 \compass
-    \components
-        should organize the components on folders pointing to the specific pages it is displayed
-    \pages
-        store all pages
-        \api
-    \public 
-        local assets - try to minimize them
-    \routes
-        routing logic
-    \styles
-        css files go here
+    \components // Components organized in folders related to specific pages
+    \pages // Store all pages here
+        \api // API routes
+    \public // Local assets (minimize usage)
+    \routes // Routing logic
+    \styles // CSS files
 ```
 
-## To start
+## 🚀 To Start
+Follow these steps to set up your local environment:
 ```
 \\ Clone this repository 
 git clone https://github.com/cssgunc/compass.git
@@ -31,6 +30,6 @@ npm install
 npm run dev
 ```
 
-## Dev notes
+## 💡 Dev Notes
 - For each task, create a branch in the format '[your name]-[ticket number]-[task description]'
 - Only commit your work to that branch and then make a git request to '/main'
