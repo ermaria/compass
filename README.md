@@ -1,4 +1,4 @@
-# 🧭 Fall 2023 - Spring 2024: A Notion-UI Website for Compass Center Data Lookup
+# 🧭 Compass Center's Internal Resource Management App
 
 ## 🛠 Technologies
 - Next.js
