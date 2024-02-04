@@ -13,7 +13,7 @@
     \pages // Store all pages here
         \api // API routes
     \public // Local assets (minimize usage)
-    \routes // Routing logic
+    \utils // Constants, Routes, Classes, Dummy Data
     \styles // CSS files
 ```
 
