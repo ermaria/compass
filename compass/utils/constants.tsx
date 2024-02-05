@@ -46,3 +46,9 @@ export enum DATATYPE {
     MULTISELECT,
     SELECT
 }
+
+export const COLLECTION_MAP: {[key in COLLECTION]: CollectionImpl} = {
+    [COLLECTION.RESOURCE]: new CollectionImpl('Resources', Icons.ResourceIcon),
+    [COLLECTION.SERVICE]: new CollectionImpl('Services', Icons.ServiceIcon),
+    [COLLECTION.USER]: new CollectionImpl('Users', Icons.UserIcon)
+}
