@@ -2,25 +2,28 @@ import React, { FunctionComponent, InputHTMLAttributes, ReactNode } from 'react'
 
 type InputProps = InputHTMLAttributes<HTMLInputElement> & {
   icon?: ReactNode;
+  title?: ReactNode;
+  title?:ReactNode;
+  placeholder?:ReactNode
 };
 
-const Input: FunctionComponent<InputProps> = ({ icon, ...rest }) => {
+const Input: FunctionComponent<InputProps> = ({ icon, type, title, placeholder, ...rest }) => {
   return (
-    <div className="mb-4 flex items-center" style={{ '--input-padding': icon ? '0' : 'var(--spacing-3)' }}>
-    {icon && <span className="p-2">{icon}</span>}
-    <input
-      className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${icon ? 'pl-0' : ''}`}
-      style={{
-        '--shadow-default': 'var(--shadow-default)',
-        '--shadow-focus': 'var(--shadow-focus)',
-        '--border-radius': 'var(--border-radius)',
-        '--border-width': 'var(--border-width)',
-        '--font-color': 'var(--font-color)',
-        'paddingLeft': 'var(--input-padding)',
-      }}
-      {...rest}
-    />
-  </div>
+    <div>
+      <label
+  htmlFor={title}
+  className="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-purple-600 focus-within:ring-1 focus-within:ring-purple-600"
+>
+  <span className="text-xs font-semibold text-gray-700"> {title} </span>
+
+  <input
+    type={type}
+    id={title}
+    placeholder={placeholder}
+    className="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm"
+  />
+</label>
+</div>
   );
 };
 
