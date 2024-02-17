@@ -3,7 +3,7 @@ import React, { FunctionComponent, InputHTMLAttributes, ReactNode } from 'react'
 type InputProps = InputHTMLAttributes<HTMLInputElement> & {
   icon?: ReactNode;
   title?: ReactNode;
-  title?:ReactNode;
+  type?:ReactNode;
   placeholder?:ReactNode
 };
 
