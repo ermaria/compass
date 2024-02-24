@@ -57,7 +57,7 @@ docker-compose down -v
 - Click **Add New Server**
 - Fill in the name field with Compass (can be anything)
 - Click **Connection** tab and fill in the following:
-  - Host name/address: postgres
+  - Host name/address: db
   - Maintence database: compass
   - Username: postgres
   - Password: admin
