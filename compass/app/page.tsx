@@ -30,7 +30,7 @@ export default function Page()  {
                         <Input type='password' title="Password"  />
                     </div>
                     <div className="flex flex-col items-left space-y-4">
-                        <InlineLink>
+                        <InlineLink href="/forgot_password">
                             Forgot password?
                         </InlineLink>
                         <Button>
