@@ -1,13 +1,14 @@
-import React, { FunctionComponent, InputHTMLAttributes, ReactNode } from 'react';
+import React, { FunctionComponent, InputHTMLAttributes, ReactNode, ChangeEvent } from 'react';
 
 type InputProps = InputHTMLAttributes<HTMLInputElement> & {
   icon?: ReactNode;
   title?: ReactNode;
   type?:ReactNode;
   placeholder?:ReactNode
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void; 
 };
 
-const Input: FunctionComponent<InputProps> = ({ icon, type, title, placeholder, ...rest }) => {
+const Input: FunctionComponent<InputProps> = ({ icon, type, title, placeholder, onChange, ...rest }) => {
   return (
     <div>
       <label
@@ -20,6 +21,7 @@ const Input: FunctionComponent<InputProps> = ({ icon, type, title, placeholder, 
     type={type}
     id={title}
     placeholder={placeholder}
+    onChange={onChange}
     className="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm"
   />
 </label>

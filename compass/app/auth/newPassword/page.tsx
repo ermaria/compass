@@ -19,7 +19,10 @@ export default function Page() {
 
 
  useEffect(() => {
-    setIsButtonDisabled(newPassword === '' || confirmPassword === '');
+    console.log('newPassword',newPassword)
+    console.log('confirmPassword',confirmPassword)
+    setIsButtonDisabled(newPassword === '' || confirmPassword === '' || newPassword !== confirmPassword);
+    console.log('newPasswordDisabledTest',isButtonDisabled)
   }, [newPassword, confirmPassword]);
 
 
