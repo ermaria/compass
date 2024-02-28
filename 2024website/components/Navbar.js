@@ -16,8 +16,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import logoSvg from "../public/images/logo.svg";
 import CloseIcon from "@mui/icons-material/Close";
 import SocialMediaIcons from "./SocialMediaIcons";
-import DarkModeToggle from "./DarkModeToggle";
 import MLHBadge from "./MLHBadge";
+import { canIDeployLiveNow } from "./hasPearlHacksStarted";
 
 const Navbar = ({ backgroundColor, toggleTheme, selectedTheme, isWideWindow }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -119,6 +119,18 @@ const Navbar = ({ backgroundColor, toggleTheme, selectedTheme, isWideWindow }) =
   <div style={{ display: 'flex', alignItems: 'center' }}>
     {isWideWindow ? (
       <div style={{marginRight: 10}}>
+
+        {<Link
+          href="/live"
+          color="inherit"
+          style={{
+            textDecoration: "none",
+            margin: "0 10px",
+            color: selectedTheme === "dark" ? "#ffecac" : "#1876bd",
+          }}
+        >
+          Live
+        </Link>}
         <Link
           href="/about"
           color="inherit"
@@ -130,6 +142,7 @@ const Navbar = ({ backgroundColor, toggleTheme, selectedTheme, isWideWindow }) =
         >
           About
         </Link>
+
         <Link
           href="/schedule"
           color="inherit"
@@ -218,6 +231,13 @@ const Navbar = ({ backgroundColor, toggleTheme, selectedTheme, isWideWindow }) =
             <CloseIcon style={{ color: "#ffecac" }} /> {/* Close button (X) */}
           </IconButton>
           <List onClick={closeMenu}>
+          <ListItem button>
+              {<Link overlay href="/live" color="inherit" underline="none">
+                {" "}
+                {/* Remove underline */}
+                <ListItemText primary="Live" />
+              </Link>}
+            </ListItem>
             <ListItem button>
               <Link overlay href="/about" color="inherit" underline="none">
                 {" "}

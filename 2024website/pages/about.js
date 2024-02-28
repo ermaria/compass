@@ -4,7 +4,7 @@ import leftImage from "../public/images/Photo1.JPG"; // Add your left image path
 import rightImage from "../public/images/Photo2.JPG"; // Add your right image path
 import { PrimaryButton } from "../components/CustomButton";
 import GenericLayout from "../components/GenericLayout";
-import Team from "../components/Team";
+import Team from "../components/about/Team";
 
 const About = ({ selectedTheme, isWideWindow }) => {
   return (

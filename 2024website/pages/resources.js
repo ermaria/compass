@@ -3,9 +3,10 @@ import { Typography, Grid } from "@mui/material";
 import {
   ResourceCardWithInfo,
   ResourceCardWithText,
-} from "../components/ResourceCard"; // Import the ResourceCard components
+} from "../components/resource/ResourceCard"; // Import the ResourceCard components
 import resourcesData from "../public/data/resources.json"; // Import the resources data
 import GenericLayout from "../components/GenericLayout";
+import { HackerGuideLink } from "../components/HackerGuideLink";
 
 const Resources = ({ selectedTheme, isWideWindow }) => {
   const beginnerResources = resourcesData["Beginner Hackers"];
@@ -22,6 +23,8 @@ const Resources = ({ selectedTheme, isWideWindow }) => {
         selectedTheme={selectedTheme}
         title="Resources"
       >
+        <HackerGuideLink selectedTheme={selectedTheme} />
+        <br />
         <Typography variant="h3" component="h2" style={{ color: "#eda901" }}>
           Past Projects
         </Typography>

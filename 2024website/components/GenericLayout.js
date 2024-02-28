@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Typography } from "@mui/material";
 import aboutHeader from "../public/images/Header.svg";
-import Footer from "../components/Footer";
+import Footer from "./footer/Footer";
 import darkHeader from "../public/images/HeaderDark.svg";
 import Head from "next/head";
 

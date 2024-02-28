@@ -1,9 +1,9 @@
 import Head from "next/head";
-import HeroSection from "../components/HeroSection";
+import HeroSection from "../components/index/HeroSection";
 // import AboutUs from '../components/AboutUs'
-import Anniversary from "../components/Anniversary";
-import Sponsor from "../components/Sponsor";
-import Footer from "../components/Footer";
+import Anniversary from "../components/index/Anniversary";
+import Sponsor from "../components/index/Sponsor";
+import Footer from "../components/footer/Footer";
 import { useRef } from 'react';
 import { motion } from 'framer-motion';
 import ArrowDownwardIcon from '@mui/icons-material/ExpandMore';
@@ -49,18 +49,18 @@ export default function Home({ selectedTheme, isWideWindow }) {
         >
           <ArrowDownwardIcon style={{  color: selectedTheme === 'light' ? '#f7cf68' : '#1876BD', fontSize: '25px' }} />
         </motion.div>
-        {<img
+        {selectedTheme == 'dark'  ? <img
             src={selectedTheme === "light" ? transitionSvgDark.src : transitionSvgLight.src}
             alt="Hero Transition"
             style={{
               position: "absolute",
-              bottom: -10,
+              bottom: isWideWindow ? -50 : -100,
               left: 0,
               backgroundSize: 'contain',
               width: "100%",
               zIndex: 1,
             }}
-          />}
+          /> : ""}
         <div ref={aboutUsRef}>
           {/* <AboutUs isWideWindow={isWideWindow} selectedTheme={selectedTheme} /> */}
           <Anniversary isWideWindow={isWideWindow} selectedTheme={selectedTheme} />

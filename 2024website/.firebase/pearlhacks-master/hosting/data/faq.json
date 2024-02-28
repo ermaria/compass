@@ -40,6 +40,41 @@
     "Category": "General FAQs"
   },
   {
+    "Question": "Does Pearl Hacks reimburse flights?",
+    "Answer": "Unfortunately, we are unable to offer reimbursements to Pearl Hacks at this time. However, there are other forms of public transportation that Pearl Hacks does offer reimbursement for and if these options are viable from your location, we recommend trying one of those options!",
+    "Category": "Transportation"
+  },
+  {
+    "Question": "When am I able to park?",
+    "Answer": "Parking is free for all Pearl Hacks attendees in the Bell Tower Deck starting at 5 pm on Friday February 23rd. If you arrive at UNC before 5 pm on Friday, there are very few places to park for free. Most lots on campus require a permit from 7:30 AM to 5 PM on weekdays. All attendees must move their cars before 7:30 am on Monday February 26th.",
+    "Category": "Transportation"
+  },
+  {
+    "Question": "Where can I park?",
+    "Answer": "- Bell Tower Parking Deck, Chapel Hill, NC 27514\n- Cobb Parking Deck Paul Green Drive, Chapel Hill, NC 27514\n\nIf you choose to park somewhere else on campus, your car may be removed or fined as the space could be reserved for another event.",
+    "Category": "Transportation"
+  },
+  {
+    "Question": "How can I get reimbursed?",
+    "Answer": "To be considered for reimbursement for travel to Pearl Hacks:\n- Fill out [this form](https://forms.gle/AqGW6MTDJwuXYt9o9) before Pearl Hacks\n- You must be transporting at least 3 other participants.\n- Each person must demo their project on Sunday.\n- Fill out the [reimbursement Google Forms](https://forms.gle/N3o2i9g8Ag5xEthV9) after Pearl Hacks",
+    "Category": "Transportation"
+  },
+  {
+    "Question": "How will my reimbursement be given to me?",
+    "Answer": "Those receiving reimbursements will be reimbursed using Amazon gift cards, with amounts dependent on their distance from Pearl Hacks.",
+    "Category": "Transportation"
+  },
+  {
+    "Question": "Who can I contact with parking or traveling related questions during Pearl Hacks?",
+    "Answer": "There will be a channel in the Discord for first-round contact with these questions. If your problem cannot be solved via Discord, a phone number will be provided for contact.",
+    "Category": "Transportation"
+  },
+  {
+    "Question": "What if I don’t have a car to get to Pearl Hacks?",
+    "Answer": "Feel free to contact other attendees to carpool. Participants contacting us before the event with travel information may be offered up to $50 reimbursement for bus or train tickets, provided they also demo at Pearl Hacks. For reimbursement requests, fill out [this form](https://forms.gle/AqGW6MTDJwuXYt9o9).",
+    "Category": "Transportation"
+  },
+  {
     "Question": "Attendee Requirement",
     "Answer": "In order to attend Pearl Hacks, you must have a valid university ID, or have graduated within the last 12 months. You must also be a woman or gender nonconforming student or new grad.",
     "Category": "Guidelines"
@@ -56,12 +91,12 @@
   },
   {
     "Question": "MLH Privacy Policy",
-    "Answer": "All Pearl Hacks attendees must agree to the MLH Privacy Policy.",
+    "Answer": "All Pearl Hacks attendees must agree to the [MLH Privacy Policy](https://mlh.io/privacy).",
     "Category": "Guidelines"
   },
   {
     "Question": "MLH Code of Conduct",
-    "Answer": "In addition to everything listed on this page, Pearl Hacks also requires all attendees to abide by the MLH Code of Conduct.",
+    "Answer": "In addition to everything listed on this page, Pearl Hacks also requires all attendees to abide by the [MLH Code of Conduct](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).",
     "Category": "Guidelines"
   },
   {

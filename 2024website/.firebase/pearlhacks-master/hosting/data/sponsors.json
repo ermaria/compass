@@ -1,8 +1,8 @@
 [
     {
-      "Sponsor Title": "BCG X",
-      "Sponsor Site URL": "https://careers.bcg.com/",
-      "Sponsor Image URL": "https://uploads-ssl.webflow.com/64216d57bb13a269468fede8/6422a6a97d6193ff7d69654d_BCG%20X%20Logo%20Positive.svg",
+      "Sponsor Title": "Principal",
+      "Sponsor Site URL": "https://www.principal.com/about-us/careers",
+      "Sponsor Image URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Principal_Financial_Group_logo.svg/2560px-Principal_Financial_Group_logo.svg.png",
       "Sponsor Tier": "Pearl"
     },
     {
@@ -12,10 +12,34 @@
       "Sponsor Tier": "Pearl"
     },
     {
-      "Sponsor Title": "Genesys",
-      "Sponsor Site URL": "https://www.genesys.com/",
-      "Sponsor Image URL": "https://partner.zoom.us/wp-content/uploads/2022/08/GEN_id_color_rg-1024x296.png",
+      "Sponsor Title": "Infosys",
+      "Sponsor Site URL": "https://www.infosys.com/careers/americas.html",
+      "Sponsor Image URL": "https://www.infosys.org/content/dam/infosys-org/en/foundation-usa/logos/logo-png.png",
       "Sponsor Tier": "Gold"
+    },
+    {
+      "Sponsor Title": "Google",
+      "Sponsor Site URL": "https://www.google.com/about/careers/applications/?hl=en_US",
+      "Sponsor Image URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png",
+      "Sponsor Tier": "Silver"
+    },
+    {
+      "Sponsor Title": "JP Morgan",
+      "Sponsor Site URL": "https://careers.jpmorgan.com/us/en/home",
+      "Sponsor Image URL": "https://pacdc.org/2017/wp-content/uploads/2022/03/JP-Morgan-Chase-Logo.png",
+      "Sponsor Tier": "Silver"
+    },
+    {
+      "Sponsor Title": "Capital One",
+      "Sponsor Site URL": "https://www.capitalonecareers.com/",
+      "Sponsor Image URL": "https://chicagocaninerescue.org/wp-content/uploads/2018/11/Capital-One-logo.png",
+      "Sponsor Tier": "Silver"
+    },
+    {
+      "Sponsor Title": "Fidelity",
+      "Sponsor Site URL": "https://jobs.fidelity.com/",
+      "Sponsor Image URL": "https://longevity.stanford.edu/wp-content/uploads/2021/03/Fidelity-Logo.png",
+      "Sponsor Tier": "Silver"
     },
     {
       "Sponsor Title": "Appian",
@@ -24,57 +48,16 @@
       "Sponsor Tier": "Silver"
     },
     {
+      "Sponsor Title": "Genesys",
+      "Sponsor Site URL": "https://www.genesys.com/",
+      "Sponsor Image URL": "https://partner.zoom.us/wp-content/uploads/2022/08/GEN_id_color_rg-1024x296.png",
+      "Sponsor Tier": "Silver"
+    },
+
+    {
       "Sponsor Title": "Bandwidth",
       "Sponsor Site URL": "https://www.bandwidth.com/careers/",
       "Sponsor Image URL": "https://comptelsite.membershipsoftware.org/content_images/2019/Bandwidth.png",
-      "Sponsor Tier": "Silver"
-    },
-    {
-      "Sponsor Title": "Capital One",
-      "Sponsor Site URL": "https://www.capitalone.com/",
-      "Sponsor Image URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Capital_One_logo.svg/2560px-Capital_One_logo.svg.png",
-      "Sponsor Tier": "Custom"
-    },
-    {
-      "Sponsor Title": "CapTech",
-      "Sponsor Site URL": "https://www.captechconsulting.com/",
-      "Sponsor Image URL": "https://assets.themuse.com/uploaded/companies/1304/small_logo.png",
-      "Sponsor Tier": "Silver"
-    },
-    {
-      "Sponsor Title": "CoStar",
-      "Sponsor Site URL": "https://www.costargroup.com/",
-      "Sponsor Image URL": "https://www.costargroup.com/sites/costargroup.com/files/costar-group-logo.png",
-      "Sponsor Tier": "Silver"
-    },
-    {
-      "Sponsor Title": "Credit Suisse",
-      "Sponsor Site URL": "https://www.credit-suisse.com/careers/en.html",
-      "Sponsor Image URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Credit_Suisse_Logo.svg/1280px-Credit_Suisse_Logo.svg.png",
-      "Sponsor Tier": "Silver"
-    },
-    {
-      "Sponsor Title": "Liberty Mutual",
-      "Sponsor Site URL": "https://www.libertymutual.com/",
-      "Sponsor Image URL": "https://1000logos.net/wp-content/uploads/2020/09/Liberty-Mutual-Logo-500x313.png",
-      "Sponsor Tier": "Silver"
-    },
-    {
-      "Sponsor Title": "M&T Tech",
-      "Sponsor Site URL": "https://www3.mtb.com/personal",
-      "Sponsor Image URL": "https://www.cs.umd.edu/cscareerfair/sites/default/files/cs.umd.edu.openhouse/styles/large/public/images/company/mtb%20yellow%201000x400.png?itok=ZmZxhnUe",
-      "Sponsor Tier": "Silver"
-    },
-    {
-      "Sponsor Title": "Palantir",
-      "Sponsor Site URL": "https://www.palantir.com/",
-      "Sponsor Image URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Palantir_Technologies_logo.svg/2560px-Palantir_Technologies_logo.svg.png",
-      "Sponsor Tier": "Custom"
-    },
-    {
-      "Sponsor Title": "PWC",
-      "Sponsor Site URL": "https://www.pwc.com/",
-      "Sponsor Image URL": "https://upload.wikimedia.org/wikipedia/commons/0/05/PricewaterhouseCoopers_Logo.svg",
       "Sponsor Tier": "Silver"
     },
     {
@@ -84,15 +67,21 @@
       "Sponsor Tier": "Silver"
     },
     {
-      "Sponsor Title": "Vanguard",
-      "Sponsor Site URL": "https://vanguard.com/",
-      "Sponsor Image URL": "https://cdn-static.findly.com/wp-content/uploads/sites/841/2020/07/VG_WM_S_RGB_v3.png",
+      "Sponsor Title": "Carmax",
+      "Sponsor Site URL": "https://careers.carmax.com/us/en/",
+      "Sponsor Image URL": "https://www.coloradopetpantry.org/wp-content/uploads/2019/08/carmax-logo-e1565720022965.png",
       "Sponsor Tier": "Silver"
     },
     {
-      "Sponsor Title": "Willowtree",
-      "Sponsor Site URL": "https://willowtreeapps.com/",
-      "Sponsor Image URL": "https://images.inc.com/uploaded_files/inc5000company/wt_logo_stacked_rgb_teal_1_21308.png",
-      "Sponsor Tier": "Silver"
+      "Sponsor Title": "Echo3D",
+      "Sponsor Site URL": "https://www.echo3d.com/",
+      "Sponsor Image URL": "https://console.echo3d.com/assets/images/echo3D_logo_cloud.png",
+      "Sponsor Tier": "Custom"
+    },
+    {
+      "Sponsor Title": "Google Cloud",
+      "Sponsor Site URL": "https://cloud.google.com/gcp?utm_source=google&utm_medium=cpc&utm_campaign=na-US-all-en-dr-bkws-all-all-trial-e-dr-1707554&utm_content=text-ad-none-any-DEV_c-CRE_665735450627-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt-Core-Google+Cloud-KWID_43700077223807304-kwd-6458750523&utm_term=KW_google+cloud-ST_google+cloud&gad_source=1&gclid=Cj0KCQiAzoeuBhDqARIsAMdH14HqaNrT8uzvcsqDYMRFybgGG8StTWdxtxJ-yOU_B_b7dOpFCIOQvw4aAvxaEALw_wcB&gclsrc=aw.ds&hl=en",
+      "Sponsor Image URL": "https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png",
+      "Sponsor Tier": "Custom"
     }
   ]

@@ -50,7 +50,7 @@ export default function MyApp(props) {
   // Automatically change the theme based on time
   useEffect(() => {
     const currentTime = new Date().getHours();
-    const isDayTime = currentTime >= 6 && currentTime < 17; // You can adjust the time range as needed
+    const isDayTime = currentTime >= 6 && currentTime < 18; // You can adjust the time range as needed
     setSelectedTheme(isDayTime ? "light" : "dark");
   }, []);
 

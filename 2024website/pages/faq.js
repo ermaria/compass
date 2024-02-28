@@ -1,8 +1,9 @@
 import React from "react";
 import { Typography, Grid } from "@mui/material";
-import FAQCard from "../components/FAQCard"; // Import the FAQCard component
+import FAQCard from "../components/faq/FAQCard"; // Import the FAQCard component
 import faqData from "../public/data/faq.json"; // Import the faq data
 import GenericLayout from "../components/GenericLayout";
+import { HackerGuideLink } from "../components/HackerGuideLink";
 
 const FAQ = ({ selectedTheme, isWideWindow }) => {
   // Create an object to group FAQs by category
@@ -27,6 +28,9 @@ const FAQ = ({ selectedTheme, isWideWindow }) => {
         selectedTheme={selectedTheme}
         title="FAQs"
       >
+        <HackerGuideLink selectedTheme={selectedTheme}  />
+        <br />
+        <br />
         {/* Display FAQs by category */}
         {Object.entries(groupedFaqs).map(([category, faqs]) => (
           <div
