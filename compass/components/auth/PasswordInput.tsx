@@ -1,20 +1,20 @@
 'use client'
 import { Icons } from '@/utils/constants';
 import React, { FunctionComponent, InputHTMLAttributes, ReactElement, ReactNode, useState} from 'react';
-import Button from './Button';
 
 
 type InputProps = InputHTMLAttributes<HTMLInputElement> & {
-  iconKey?: keyof typeof Icons; // Use keyof typeof to ensure the key exists in Icons
   title?: string; // Assuming title is always a string
   type?: string;
   placeholder?: string;
-  
-  
 };
 
-const Input: FunctionComponent<InputProps> = ({ iconKey, type, title, placeholder, ...rest }) => {
-  const IconComponent = iconKey ? Icons[iconKey] : null;
+const PasswordInput: FunctionComponent<InputProps> = ({ type, title, placeholder, ...rest }) => {
+  
+  const [visible, setVisible] = useState (false);
+  const PasswordIcon = visible ?  Icons['HidePasswordIcon'] :  Icons['UnhidePasswordIcon'];
+
+
 
   
   return (
@@ -27,15 +27,10 @@ const Input: FunctionComponent<InputProps> = ({ iconKey, type, title, placeholde
         </div>
       )}
       <div className="flex items-center border border-gray-300 rounded-md shadow-sm overflow-hidden">
-        {IconComponent && (
-          <span className="inline-flex items-center px-3 border-r border-gray-300 text-gray-500">
-            <IconComponent className="h-5 w-5"  />
-          </span>
-        )}
 
         <input
           {...rest}
-          type={type}
+          type={visible ? "text" : "password"} 
           id={title}
           placeholder={placeholder}
           
@@ -43,10 +38,17 @@ const Input: FunctionComponent<InputProps> = ({ iconKey, type, title, placeholde
           style={{ boxShadow: 'none' }} // This ensures that the input doesn't have an inner shadow
           
         />
+        
+        {PasswordIcon && (
+          <span className="inline-flex items-center px-3 border-r border-gray-300 text-gray-500">
+            <PasswordIcon className="h-5 w-5" onClick={() => setVisible(!visible)}/>
+            
+          </span>
+        )}
        
       </div>
     </div>
   );
 };
 
-export default Input;
+export default PasswordInput;
